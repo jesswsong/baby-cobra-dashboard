@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="script.js">
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body onload=final_project()>
+
+    <div id="header"> 
+        <h2 style="text-align: center; line-height: 10%;">Ali Wong</h2>
+        <h1 style="text-align: center; line-height: 50%;">Baby Cobra</h1>
+        <h3 style="text-align: center;">Data Visualizations</h3>
+        <p>In the following dashboard, I created three Visualizations regarding Ali Wong's stand up comedy Netflix special "Baby Cobra".</p>
+    </div>
+
+    <div>
+        <div id="map" class="center_plot">
+    </div>
+
+    <p>That's a lot of states! Let's take a deeper dive into Ali Wong's Baby Cobra script. What makes it so popular? 
+        <br> In the following visualization, I graphed each segment of the show (based on its topic) based on their time, and show the number of laughters that she got for each topic.
+        <br> There are some topics that received 0 laughs. For clarity, when your mouse move over to where they are, a tooltip will show and display which topic it was.
+    </p>
+        
+    </div>
+        <div id="bar_chart" class="center_plot">
+    </div>
+
+    <p>
+        Now let's explore further in what makes these topics so funny. 
+        <br>I encoded a couple over-arching themes that repeats throughout the show. 
+        <br>I hand-collected data on each topic that Ali Wong talked about, their corresponding theme, and the references they make to each other. 
+        <br>They are shown in this graph - that's a lot of references!
+        <br>
+        <br> You can also notice that a lot of the earliers topics are called back in the end, and that the end contains even more references to the beginning of the show.
+        <br> What makes Ali Wong's Baby Cobra so funny is truly the callbacks. 
+    </p>
+    <div>
+        <!-- Create a div where the graph will take place -->
+        <div id="my_dataviz" class="center_plot"></div>
+        
+    </div>
+
+
+
+
+</body>
+
+</html>

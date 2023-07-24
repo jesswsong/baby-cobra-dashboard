@@ -1,0 +1,58 @@
+#header {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+
+#map .tooltip {
+    border: 1px solid #ccc;
+    padding: 10px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    white-space: nowrap;
+}
+
+#bar_chart .tooltip {
+    border: 1px solid #ccc;
+    padding: 10px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    white-space: nowrap;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 70;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 30;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15;
+    text-align: center;
+}
+
